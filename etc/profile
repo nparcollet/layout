@@ -1,0 +1,21 @@
+# Path
+PATH="/usr/sbin:/usr/bin:/sbin:/bin:."
+export PATH
+
+# Prompt
+export PS1="\[\e[31m\]\h\[\e[m\] # "
+
+# HOME
+if [ "`id -u`" -eq 0 ]; then
+	HOME="/root"
+else
+	HOME="$(whoami)"
+fi
+export HOME
+
+# Some Useful Aliases
+alias ls='ls --color'
+alias ll='ls --color -la'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'

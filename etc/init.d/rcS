@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for s in $(ls /etc/init.d/s???-*);
+do
+	echo "Running ${s}";
+	$s;
+done

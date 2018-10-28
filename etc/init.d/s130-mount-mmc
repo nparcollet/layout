@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# BOOT partition
+mount -t vfat /dev/mmcblk0p2 /boot
+
+# ROOTFS partition (Read only is good, change only for debugvi /et
+#mount -oremount,rw /

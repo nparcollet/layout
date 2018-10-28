@@ -1,0 +1,6 @@
+#!/bin/sh
+mkdir /var/run
+mkdir /var/log
+mkdir /var/spool
+mkdir /var/cache
+mkdir /var/db

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+modprobe snd_bcm2835
+modprobe hid_sony
+modprobe evdev
+modprobe joydev
+#modprobe vc4

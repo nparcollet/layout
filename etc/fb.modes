@@ -1,0 +1,9 @@
+mode "1280x720x32"
+	geometry 1280 720 1280 720 16
+	timings 0 0 0 0 0 0 0
+endmode
+
+mode "720x576x16"
+	geometry 720 576 720 576 16
+	timings 21208 144 40 32 10 128 3
+endmode

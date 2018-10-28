@@ -1,0 +1,10 @@
+::sysinit:/bin/hostname -F /etc/hostname
+::sysinit:/etc/init.d/rcS
+
+::respawn:-/bin/sh
+::restart:/sbin/init
+::ctrlaltdel:/sbin/reboot
+
+tty2::askfirst:-/bin/sh
+tty3::askfirst:-/bin/sh
+tty4::askfirst:-/bin/sh

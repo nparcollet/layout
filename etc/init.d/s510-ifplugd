@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/sbin/ifplugd -M -t1 -u1 -d1 -i eth0 -r /usr/sbin/autoip

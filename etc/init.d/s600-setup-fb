@@ -1,0 +1,3 @@
+#!/bin/sh
+vcgencmd get_config sdtv_aspect set 1
+/usr/sbin/fbset 1280x720x32
